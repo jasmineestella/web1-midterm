@@ -102,12 +102,51 @@ table {
 /*this controls the space between the divider lines and links*/
 .nav-links li{
     padding: 0 15px;
+    flex: 1;
+    text-align: center;
 }
 /*this controls the style of the link text*/
 .nav-links a{
     text-decoration: none;
     color: black;
     font-family: sans-serif;
-    font-size: 30pt;
+    font-size: 35px;
     text-align: center;
+}
+/*life of a starfish header: controls the style of the H2 header*/
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+/*controls the size of the photo and its margin on the page*/
+.main-image{
+    width: 333px;
+    height: 333px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+/*controls page width*/
+#page-width{
+    margin: 0 15px;
+}
+/*controls the font and size of the paragraph*/
+p{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+/*facts about starfish: controls the style of the H3 header*/
+h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+/*controls the list style*/
+.fact-list{
+    font-family: sans-serif;
+    font-size: 17px;
+    list-style-type: disc;
+    margin: 15px;
 }
