@@ -134,7 +134,7 @@ h2{
 }
 /*controls the font and size of the paragraph*/
 p{
-    font-size: 17px;
+    font-size: 25px;
     font-family: sans-serif;
 }
 /*facts about starfish: controls the style of the H3 header*/
@@ -150,3 +150,4 @@ h3{
     list-style-type: disc;
     margin: 15px;
 }
+
