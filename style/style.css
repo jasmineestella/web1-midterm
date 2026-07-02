@@ -53,16 +53,52 @@ table {
 /**********************
     Style Started
 ***********************/
+/*styles are listed by HTML tag, id then class*/
+/************************************************
+        HTMLs
+ ***********************************************/
+ 
+ /*life of a starfish header: controls the style of the H2 header*/
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+/*controls the font and size of the paragraph*/
+p{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+/*facts about starfish: controls the style of the H3 header*/
+h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+/************************
+    TAGS
+*************************/    
+/*this container aligns the page elements and added background color*/ 
+#container{
+    margin: 0 155px;
+    background-color: #d4edea;
+}
+/*controls page width*/
+#page-width{
+    margin: 0 15px;
+}
+
+/***********************
+    CLASSES
+************************/
+
 /*this controls the size of the header container for the image and text*/
 .header-container{
     position: relative;
     width: 100%;
 }
-/*this container aligns the page elements and added background color*/ 
-#container{
-    margin: 0 155px;
-    background-color: #d4edea;
-} 
+ 
 /*controls the size of the header image*/
 .header-image{
     width:100%;
@@ -113,13 +149,7 @@ table {
     font-size: 35px;
     text-align: center;
 }
-/*life of a starfish header: controls the style of the H2 header*/
-h2{
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
+
 /*controls the size of the photo and its margin on the page*/
 .main-image{
     width: 333px;
@@ -128,21 +158,7 @@ h2{
     margin-right: 15px;
     margin-bottom: 15px;
 }
-/*controls page width*/
-#page-width{
-    margin: 0 15px;
-}
-/*controls the font and size of the paragraph*/
-p{
-    font-size: 25px;
-    font-family: sans-serif;
-}
-/*facts about starfish: controls the style of the H3 header*/
-h3{
-    font-family: sans-serif;
-    font-size: 30px;
-    margin-top: 20px;
-}
+
 /*controls the list style*/
 .fact-list{
     font-family: sans-serif;
@@ -150,4 +166,14 @@ h3{
     list-style-type: disc;
     margin: 15px;
 }
+/* controls the position of the footer*/
+.footer{
+    margin: 15px 15px 15px 15px;
+    text-align: right;
+}
+/*controls the style of the form font*/
+.form-group{
+    font-size: 25px;
+    font-family: sans-serif;
 
+}
